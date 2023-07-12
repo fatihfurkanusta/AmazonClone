@@ -1,7 +1,7 @@
-<h1>Amazon Clone</h1>
-<a>Amazon Clone projects at Salesforce.</a>
+# Amazon Clone
+Amazon Clone projects at Salesforce.
 
-<h1>Used Technologies</h1>
-<a>Apex</a>
-<a>LWC</a>
+# Used Technologies
+- Apex
+- LWC
 
