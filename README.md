@@ -5,4 +5,5 @@ Amazon Clone projects at Salesforce.
 # Used Technologies
 - Apex
 - LWC
+- Lightning Design System
 
