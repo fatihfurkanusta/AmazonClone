@@ -6,4 +6,5 @@ Amazon Clone projects at Salesforce.
 - Apex
 - LWC
 - Lightning Design System
+- HTML, CSS , Javascript
 
