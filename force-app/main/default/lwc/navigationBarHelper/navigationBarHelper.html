@@ -1,23 +1,32 @@
 <template>
-    
-    <div class="slds-grid slds-gutters subNavigation">
+    <div class="subNavigation">
 
-        <div class="slds-col slds-p-around_medium columnHover" onclick={navigateToHome}>
-            Home
-        </div>
+        <lightning-layout multiple-rows>
+            <lightning-layout-item>
+                <div class="box p" onclick={navigateToHome}>
+                    Home
+                </div>
+            </lightning-layout-item>
 
-        <div class="slds-col slds-p-around_medium columnHover" onclick={navigateToBooks}>
-            Book
-        </div>
+            <lightning-layout-item>
+                <div class="box p" onclick={navigateToBooks}>
+                    Book
+                </div>
+            </lightning-layout-item>
 
-        <div class="slds-col slds-p-around_medium columnHover">
-            Mobile
-        </div>
+            <lightning-layout-item>
+                <div class="box p">
+                    Mobile
+                </div>
+            </lightning-layout-item>
 
-        <div class="slds-col slds-p-around_medium columnHover">
-            Fashion
-        </div>
-
+            <lightning-layout-item>
+                <div class="box p">
+                    Fashion
+                </div>
+            </lightning-layout-item>
+            
+        </lightning-layout>
     </div>
 
 </template>

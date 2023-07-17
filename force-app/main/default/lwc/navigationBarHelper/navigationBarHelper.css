@@ -1,11 +1,27 @@
 .subNavigation{
-    background-color: #0F1111;
+    background-color: #232F3E;
     color: white;
+    height: 39px;
     text-align: center;
-    font-weight: 700;
+    /* padding: 0px 0px 0px 15px; */
+
 }
 
-.columnHover:hover{
-    background-color: rgb(126,193,24);
-    cursor: pointer;
+.p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.box{
+    border: 2px solid transparent;
+    height: 28px;
+    padding: 8px 12px;
+    margin: 5px 0px 6px 0px;
+    text-align: center;
+    font: 14px,Arial;
+}
+
+.box:hover{
+    border-color: white;
 }

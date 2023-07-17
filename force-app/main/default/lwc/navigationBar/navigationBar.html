@@ -1,57 +1,58 @@
 <template>
-    <div class="slds-grid navClass">
 
-        <div class="slds-col slds-size_6-of-12">
-            <h2 class="heading">Amazon.in</h2>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
         </div>
 
-        <div class="slds-col slds-size_5-of-12">
-            <lightning-layout multiple-rows>
-
-                <lightning-layout-item size="12" padding="around-small" small-device-size="8" medium-device-size="8" large-device-size="8" >
-                    <div class="userLogo">
-                        <lightning-icon icon-name="action:user"></lightning-icon>
-                    </div>
-                </lightning-layout-item>
-
-                <lightning-layout-item size="12" padding="around-small" small-device-size="2" medium-device-size="2" large-device-size="2">
-                    <div class="userName">UserName</div>
-                </lightning-layout-item>
-
-                <lightning-layout-item size="12" padding="around-small" small-device-size="2" medium-device-size="2" large-device-size="2">
-                    <div class="slds-p-around_medium lgc-bg">
-                        <lightning-button-menu alternative-text="'Show Menu">
-
-                            <lightning-menu-item value="'Item One" label="'Item One"></lightning-menu-item>
-
-                            <lightning-menu-item value="'Item Two" label="'Item Two"></lightning-menu-item>
-
-                            <lightning-menu-item value="'Item Three" label="'Item Three"></lightning-menu-item>
-
-                            <lightning-menu-item value="'Item Four" label="'Item Four"></lightning-menu-item>
-
-                        </lightning-button-menu>
-                    </div>
-                </lightning-layout-item>
-
-            </lightning-layout>
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <lightning-icon icon-name='utility:checkin'  alternative-text='checkin' size='small' title='checkin'></lightning-icon>
+                <p class="add-second">Turkey</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <lightning-icon icon-name='utility:search' alternative-text='search' size="small" title='search'></lightning-icon>
+            </div>
         </div>
 
-        <div class="slds-col">
-            <lightning-layout multiple-rows>
-                <lightning-layout-item size="12" padding="around-small" small-device-size="6" medium-device-size="6" large-device-size="6" >
-                    <div class="cartDiv">
-                        <lightning-icon icon-name="utility:cart">
-                        </lightning-icon>
-                    </div>
-                </lightning-layout-item>
-
-                <lightning-layout-item size="12" padding="around-small" small-device-size="6" medium-device-size="6" large-device-size="6">
-                    <div class="cartNumber">1</div>
-                </lightning-layout-item>
-                
-            </lightning-layout>
+        <div class="nav-signin border">
+            <p class="nav-first"><span>Hello, sign in</span></p>
+            <p class="nav-second">Account & Lists</p>
         </div>
 
+        <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="nav-cart border">
+            <lightning-icon icon-name='utility:cart' alternative-text='cart' size='large' title='cart'></lightning-icon>
+            Cart
+        </div>
     </div>
+
+    <div class="panel">
+        <div class="panel-all border">
+            <lightning-icon icon-name='utility:rows' alternative-text='rows' size='small' title='rows' style="color: white"></lightning-icon>
+            All
+        </div>
+        <div class="panel-ops">
+            <p class="border">Today's Deals</p>
+            <p class="border">Customer Service</p>
+            <p class="border">Registery</p>
+            <p class="border">Gift Cards</p>
+            <p class="border">Sell</p>
+        </div>
+        <div class="panel-deals">
+            <p class="border">Shop deals in Electronics</p>
+        </div>
+    </div>
+
 </template>
